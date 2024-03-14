@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonc"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        android:layout_width="101dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="310dp"
+        android:hapticFeedbackEnabled="false"
+        android:longClickable="true"
+        android:outlineSpotShadowColor="#BD1515"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:cornerRadius="10dp"
+        app:iconPadding="5dp"
+        app:iconTintMode="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852"
+        app:rippleColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttona"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="310dp"
+        android:hapticFeedbackEnabled="false"
+        android:longClickable="true"
+        android:outlineSpotShadowColor="#BD1515"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:cornerRadius="10dp"
+        app:iconPadding="5dp"
+        app:iconTintMode="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643"
+        app:rippleColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttone"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginBottom="32dp"
+        android:hapticFeedbackEnabled="false"
+        android:longClickable="true"
+        android:outlineSpotShadowColor="#BD1515"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:cornerRadius="10dp"
+        app:iconPadding="5dp"
+        app:iconTintMode="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.913"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GlyphCFrame"
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonb"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="310dp"
+        android:hapticFeedbackEnabled="false"
+        android:longClickable="true"
+        android:outlineSpotShadowColor="#BD1515"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:cornerRadius="10dp"
+        app:iconPadding="5dp"
+        app:iconTintMode="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643"
+        app:rippleColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/GlyphCFrame"
+        android:layout_width="184dp"
+        android:layout_height="189dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginEnd="88dp"
+        app:layout_constraintBottom_toTopOf="@+id/GlyphDFrame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GlyphBFrame"
+        app:srcCompat="@drawable/c0" />
+
+    <ImageView
+        android:id="@+id/GlyphAFrame"
+        android:layout_width="53dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginBottom="376dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/a0" />
+
+    <ImageView
+        android:id="@+id/GlyphBFrame"
+        android:layout_width="45dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="103dp"
+        app:layout_constraintBottom_toTopOf="@+id/GlyphCFrame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/GlyphAFrame"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/b0" />
+
+    <ImageView
+        android:id="@+id/GlyphEFrame"
+        android:layout_width="10dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="132dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GlyphDFrame"
+        app:srcCompat="@drawable/e0" />
+
+    <ImageView
+        android:id="@+id/GlyphDFrame"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginEnd="155dp"
+        app:layout_constraintBottom_toTopOf="@+id/GlyphEFrame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GlyphCFrame"
+        app:srcCompat="@drawable/d0" />
+
+    <Button
+        android:id="@+id/buttond"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginBottom="32dp"
+        android:hapticFeedbackEnabled="false"
+        android:longClickable="true"
+        android:outlineSpotShadowColor="#BD1515"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:cornerRadius="10dp"
+        app:iconPadding="5dp"
+        app:iconTintMode="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GlyphCFrame"
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="@color/white" />
+
+    <Button
+        android:id="@+id/emg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
